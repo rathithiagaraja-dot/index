@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+   <div class="menu-btn" onclick="openMenu()">☰</div>
+
+
+<div id="topMenu" class="top-menu">
+
+<div class="close-btn" onclick="closeMenu()">✕</div>
+
+<a href="index.html">Home</a>
+<a href="history.html">History</a>
+<a href="cultural.html">Cultural</a>
+<a href="language.html">Language</a>
+<a href="festival.html">Festival</a>
+<a href="traditional dress.html">Traditional Dress</a>
+<a href="food.html">Food</a>
+<a href="unique place.html">Unique Place</a>
+<a href="sport.html">Sport</a>
+<a href="indian museum.html">Indian Museum</a>
+
+</div>
+
+<div id="content" class="content">
+
+<video autoplay loop muted id="bgvideo1">
+    <source src="audio/video.mp4" type="video/mp4" width="30px" height="10px">
+</video>
+
+<audio id="myaudio" autoplay loop>
+    <source src= "audio/video.mp3" type="audio/mp3">
+</audio>
+
+
+
+
+  
+   
+<div class="comment-icon" onclick="toggleComment()">
+    💬
+</div>
+
+
+<div class="comment-box" id="commentBox">
+
+    <span class="close-btn" onclick="toggleComment()">✖</span>
+
+    <h2>Leave a Comment</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name" required>
+
+        <textarea rows="5" placeholder="Write your comment here..." required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</div>
+
+
+</body>
+
+</html>
